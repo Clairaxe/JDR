@@ -12,7 +12,7 @@
    	  <li>
             <a href="http://pams.script.univ-paris-diderot.fr/~chambazc/Projet/accueil.php"> <img src="https://club-jdr.fr/wp-content/uploads/2021/12/jdr.png" width=50 height=50 > </a>
    	 </li>
-    	 <li>lalilaa
+    	 <li>
             <a href="http://pams.script.univ-paris-diderot.fr/~chambazc/Projet/jouer.php">Jouer</a>
    	 </li>
    	 <li>
