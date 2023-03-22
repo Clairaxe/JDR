@@ -25,7 +25,6 @@
   </head>
 
   <body>
-    <h1> Accueil </h1>
+    <h1> connection/inscription : créer la page d'inscription </h1>
   </body>
-
 </html>

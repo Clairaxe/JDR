@@ -1,0 +1,147 @@
+body {
+        font-family: 'Alkatra', cursive;
+}
+.menu {
+    display: flex;                /* Transformation en flexbox */
+    padding:0;                    /* Suppression des marges internes */
+    background-color: #000000;       /* Ajout de la couleur d'arrière-plan */
+    justify-content: space-around;   /* Alignements des liens dans le menu */
+}
+.menu li {
+    list-style-type: none ;       /* Suppression des puces */
+
+}
+.menu a {
+    display:block;                /* Transformation en block */
+    min-width: 120px;             /* Largeur minimale des liens */
+
+    margin: 0.5rem;               /* Marges externes */
+    padding: 0.4rem 0;            /* Marges internes */
+    text-align: center;           /* Centrage du texte */
+    background-color: #000000;    /* Arrière-plan */
+    color: #FFFFFF;               /* Couleur du texte */
+    text-decoration: none;        /* Suppression du soulignement */
+    border: 1px solid #fff;       /* Ajout d'une bordure */
+    border-radius: 4px;           /* Arrondis des bordures */
+}
+.menu a.actif {
+    background-color: #000000 ;
+    color: #000000 ;
+    border-color: #000000 ;
+}
+.menu a:hover,
+.menu a:hover.actif{
+    background-color: #FFFFFF;
+    color: #000000;
+    border-color: #FFFFFF;
+}
+/*Tout ce qui précède est pour la barre du site web, ce qui suit est pour la page profil */
+
+.wrapper {
+  background-color: antiquewhite;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  width: 500px;
+  height: 800px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grey {
+  color: #2F4F4F;
+}
+
+*/
+
+img {
+   z-index: 1;
+}
+
+.profile-top {
+  width: 500px;
+  height: 300px;
+  background-image: url("./manuscrit.jpg");
+  background-position: center;
+  background-size: cover;
+  position:relative;
+  z-index: 2;
+  transform: translate(0%,-85%);
+}
+
+
+.profile-image {
+  background-image: url("./perso.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 3px solid #000000;
+  bottom: 100;
+  left: 50%;
+  transform: translate(-50%,90%);
+}
+
+.profile-bottom {
+  margin-top: 75px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+}
+
+.main-infos {
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.name {
+  margin-top: 150px;
+  font-weight: 1000;
+  margin-right: 5px;
+}
+
+.race {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.classe {
+  font-size: 20px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.alignement {
+  margin-right: 5px;
+}
+
+.profile-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+}
+
+.stat-item:not(:last-child) {
+  border-right: 1px solid black;
+}
+
+.stat {
+  font-size: 20px;
+  font-weight: 700;
+}

@@ -25,7 +25,7 @@
   </head>
 
   <body>
-    <h1> Accueil </h1>
+    <h1> Jouer </h1>
   </body>
 
 </html>
