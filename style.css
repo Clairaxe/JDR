@@ -1,5 +1,6 @@
 body {
     font-family: "Trebuchet MS";
+    .box
 }
 .menu {
     display: flex;                /* Transformation en flexbox */
@@ -36,7 +37,4 @@ body {
     border-color: #FFFFFF;
 }
 
-
-
-
-}
+// réussir à enlever les bordures du logo //
